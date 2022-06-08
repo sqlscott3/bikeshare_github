@@ -131,8 +131,10 @@ def station_stats(df):
 
     # display most frequent combination of start station and end station trip
     print("\nThe most frequent combination of Start Station and End Station per trip is: ")
-    print(df[['Start Station','End Station']].mode().to_string(index=False))
-
+    # wrong result --> print(df[['Start Station','End Station']].mode().to_string(index=False))
+    # correction using GROUP BY
+    dfgb = df.groupby(['Start Station','End Station']).size().to_frame('size')
+    print(dfgb[dfgb['size'] == dfgb['size'].max()])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
