@@ -202,12 +202,17 @@ def display_raw(df):
     """Displays 5 rows of raw data at a time."""
     currows = 0
     while True:
-        raw = input("\nWould you like to see (next) 5 lines of the raw data? Yes or No\n")
-        if raw.lower() != 'yes':
+        while True:
+            raw = input("\nWould you like to see (next) 5 lines of the raw data? Yes or No\n").lower()
+            if not raw or raw not in "yes,no":
+                print("Sorry, Yes or No, please try again.")
+            else:
+                break
+
+        if raw == 'no':
             break
         print(df.iloc[currows : currows+5])
         currows += 5
-        
 
 def main():
     while True:
@@ -219,9 +224,15 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         display_raw(df)
-        
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+
+        while True:
+            restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
+            if not restart or restart not in "yes,no":
+                print("Sorry, Yes or No, please try again.")
+            else:
+                break
+ 
+        if restart == 'no':
             break
 
 
