@@ -29,3 +29,9 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.valu
 https://stackoverflow.com/questions/45643326/how-to-delete-string-from-a-string-in-python  
 https://stackoverflow.com/questions/30222533/create-a-day-of-week-column-in-a-pandas-dataframe-using-python  
 https://statisticsglobe.com/check-if-column-exists-in-pandas-dataframe-python
+
+For correction of the output for
+--> display most frequent combination of start station and end station trip  
+using group by  
+https://www.geeksforgeeks.org/python-pandas-dataframe-groupby  
+https://stackoverflow.com/questions/17995024/how-to-assign-a-name-to-the-size-column
