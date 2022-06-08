@@ -6,6 +6,9 @@ BikeShare Data Analysis Project
 
 ### Description
 Answers specific questions regarding the data for BikeSharing in Chicago, New York City or Washington.
+#### 6/6/2022 -- bug fix
+the "display most frequent combination of start station and end station trip"  
+to use .groupby()
 
 ### Files used
 BikeShare.py  
