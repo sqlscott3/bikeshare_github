@@ -1,17 +1,28 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+June 5, 2022
 
 ### Project Title
-Replace the Project Title
+BikeShare Data Analysis Project
 
 ### Description
-Describe what your project is about and what it does
+Answers specific questions regarding the data for BikeSharing in Chicago, New York City or Washington.
 
 ### Files used
-Include the files used
+BikeShare.py  
+chicago.csv  
+new_york_city.csv  
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+#### Web articles/blog posts that were consulted in development of this program:
 
+https://datagy.io/python-check-if-key-value-dictionary  
+https://www.studytonight.com/python-howtos/how-to-get-month-name-from-month-number-in-python  
+https://www.geeksforgeeks.org/python-pandas-dataframe-values  
+https://www.tutorialspoint.com/how-to-display-pandas-dataframe-in-python-without-index  
+https://www.geeksforgeeks.org/how-to-select-multiple-columns-in-a-pandas-dataframe  
+https://www.askpython.com/python/examples/convert-seconds-hours-minutes  
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html  
+https://stackoverflow.com/questions/45643326/how-to-delete-string-from-a-string-in-python  
+https://stackoverflow.com/questions/30222533/create-a-day-of-week-column-in-a-pandas-dataframe-using-python  
+https://statisticsglobe.com/check-if-column-exists-in-pandas-dataframe-python
